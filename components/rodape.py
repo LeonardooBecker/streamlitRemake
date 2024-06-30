@@ -27,6 +27,8 @@ def rodape():
             .images {
                 display: flex;
                 flex-wrap: wrap;
+                background-color: white;
+                border-radius: 20px;
             }
             .images img {
                 width:30%;
