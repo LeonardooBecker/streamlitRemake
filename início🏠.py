@@ -13,20 +13,6 @@
 import streamlit as st
 import sys 
 
-# st.set_page_config(page_title="Estudo Naturalístico de Direção Brasileiro", layout="wide")
-# navigation_tree = {
-#     "Página Inicial": [
-#         st.Page("pages/teste.py", title="inicio")
-#     ],
-#     "Reports": [
-#         st.Page("pages/celular 📱.py", title="Celular"),
-#         st.Page("pages/cinto 💺.py", title="Cinto"),
-#     ]
-# }
-# nav = st.navigation(navigation_tree, position="sidebar")
-# nav.run()
-
-
 # Processamento de dados
 sys.path.append('./local_libs')
 from local_libs.alteraNomes import *
