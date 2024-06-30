@@ -37,8 +37,8 @@ with open("css/style.css") as f:
 
 
 def main():
-
     st.logo("https://www.inf.ufpr.br/lbo21/images/logoBranca.png")
+    
     my_map = folium.Map(location=[-25.442027, -49.269582],
                         zoom_start=12)
 
