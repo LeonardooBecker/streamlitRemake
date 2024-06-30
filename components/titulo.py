@@ -40,6 +40,8 @@ def titulo(titulo):
                 <style>
                 .titulo {{
                     display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
                 }}
                 #texto{{
                     padding: 10px;
@@ -54,7 +56,6 @@ def titulo(titulo):
                 </style>
                 <div class="titulo">
                     <h1 style="font-size:42px; text-align:center">{titulo}</h1>
-                    <img src='https://www.inf.ufpr.br/lbo21/images/logoBranca.png' id="logoNDS">
                 </div>
                 """
 
