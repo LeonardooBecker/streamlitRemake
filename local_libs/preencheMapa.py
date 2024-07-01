@@ -11,7 +11,7 @@ import folium
 import streamlit as st
 
 # Operação db
-from postgres.query import *
+from postgresql.query import *
 
 def filtraBairrosValido(x, dfCodigo):
     if x in dfCodigo["BAIRRO"].values:

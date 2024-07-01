@@ -1,5 +1,5 @@
 import streamlit as st
-from postgres.connect import *
+from postgresql.connect import *
 
 connection = initConnection()
 

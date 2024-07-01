@@ -27,7 +27,7 @@ from components.titulo import *
 from components.rodape import *
 
 # Operação db
-from postgres.query import *
+from postgresql.query import *
 
 with open("./css/style.css") as f:
     st.markdown(f"<style>{f.read()}<style>", unsafe_allow_html=True)

@@ -27,8 +27,8 @@ from components.titulo import *
 from components.rodape import *
 
 # Operação db
-sys.path.append('./postgres')
-from postgres.query import *
+sys.path.append('./postgresql')
+from postgresql.query import *
 
 
 # Importação do CSS
